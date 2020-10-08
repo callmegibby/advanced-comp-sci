@@ -1,7 +1,5 @@
-# SearchTreePython.py
-list = [1, 5, 7, 9, 11, 15, 17]
-head = {
-    "value": 10,
+{
+	"value": 10,
 	"left": {
 		"value": 8,
 		"left": {
@@ -39,5 +37,5 @@ head = {
 			},
 			"right": null
 		}
-    }
+	}
 }
