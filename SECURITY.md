@@ -2,4 +2,4 @@
 
 ## Supported Versions
 
-This code is not supported. 
+This code is not supported and is used for education purposes only
