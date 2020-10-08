@@ -3,7 +3,6 @@
  *
  * The script will use the binary search algorithm to find any input values in the array & json object
  */
-
 const chalk = require('chalk')
 const list = [1, 5, 7, 9, 11, 15, 17]
 const head: node = {
@@ -77,7 +76,6 @@ function SearchListTypescript(array: number[], goal: number): number {
 			L = index + 1
 		}
 	}
-	// console.log('false')
 	return -1
 }
 console.log(chalk.white.bold('-- Search Results --'))

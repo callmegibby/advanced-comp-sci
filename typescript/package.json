@@ -3,7 +3,8 @@
 	"version": "1.0.0",
 	"main": "SearchTree.js",
 	"scripts": {
-		"start": "tsc src/SearchTreeTypescript.ts && node src/SearchTreeTypescript.js",
+		"start": "tsc --removeComments --sourceMap --importHelpers --forceConsistentCasingInFileNames --declarationMap --declaration --listEmittedFiles src/SearchTreeTypescript.ts && node src/SearchTreeTypescript.min.js",
+		"dev": "tsc --removeComments --sourceMap --importHelpers --forceConsistentCasingInFileNames --declarationMap --declaration --listEmittedFiles -w src/SearchTreeTypescript.ts && node src/SearchTreeTypescript.js",
 		"format": "npx prettier --write ."
 	},
 	"dependencies": {
