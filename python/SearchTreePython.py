@@ -41,3 +41,8 @@ head = {
 		}
     }
 }
+node = {
+	"value": number,
+	"left": null,
+	"right": null
+}
