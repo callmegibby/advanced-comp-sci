@@ -1,0 +1,11 @@
+{
+	"name": "search-tree",
+	"version": "1.0.0",
+	"main": "SearchTree.js",
+	"scripts": {
+		"start": "tsc SearchTreeTypescript.ts"
+	},
+	"dependencies": {
+		"typescript": "4.0.3"
+	}
+}
